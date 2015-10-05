@@ -1,1 +1,256 @@
-i think i am fine
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>Zhiwei Jia - Personal Website</title>
+    <meta name="description" content="Welcome to my personal website! I am Zhiwei Jia, a sophomore at University of California, San Diego. I double majors in Computer Science and Applied Mathematics and have broad interest into these two areas." />
+    <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" />
+    <link rel="stylesheet" href="css/for-index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="javascript/for-index.js"></script>
+  </head>
+  <body>
+    <div class="container" id="home">
+      <h1 id="name-home">Zhiwei Jia</h1>
+      <p id="welcome">Welcome to my personal website!<br />Scroll down for more.</p>
+      <p id="welcome-alt">Welcome! Scroll down for more.</p>
+    </div>
+    <nav class="navbar navbar-inverse" id="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <p class="navbar-brand" id="name-navbar">Zhiwei Jia</p>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Works<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#works">Overview</a></li>
+                <li class="divider"></li>
+                <li><a href="kt.html" target="_blank">Finding Knight&apos;s Tour</a></li>
+                <li><a href="uc.html" target="_blank">Unit Calculator</a></li>
+                <li><a href="#">2048 (come out soon)</a></li>
+                <li><a href="#">Nim (come out soon)</a></li>
+                <li><a href="#">Optimization & Equations Solver</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#temp">Overview</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">In</a></li>
+                <li><a href="#">Progress</a></li>
+              </ul>
+            </li>
+            <li><a href="#temp">Music<span class="glyphicon glyphicon-headphones icon"></span></a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right" id="nav-right">
+            <li><a href="#contact">Contact<span class="glyphicon glyphicon-user icon"></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="fixed-top"></div>
+    <div id="about">
+      <div id="about-content">
+        <h1 id="name-intro">Hi, I am <span class="phone-show-newline">Zhiwei Jia...</span></h1>
+        <div id="break"></div>
+        <p>
+          You can also call me Sean. I am a sophomore at University of California, San Diego.
+          I double majors in Computer Science and Applied Mathematics and have broad interest
+          into these two areas. I study on web programming (both front-end and back-end), data
+          mining, machine learning, computer vision, optimization and combinatorial algorithms.
+          Currently I am building this website (updating contents and implementing responsive css) 
+          and converting some of the machine learning code from MATLAB to Python.
+        </p>
+        <div class="break"></div>
+        <p>
+          Personally I enjoy classical music very much. I have been playing the piano since I was
+          five. Chopin&apos;s and Beethoven&apos;s works are my favorites. I have included a large amount of
+          those classical pieces in this website. Click "Music" in the navigation bar to enjoy them
+          freely.
+        </p>
+        <div class="break"></div>
+        <p>
+          This personal website is designed and implemented by myself. My selected personal
+          works and collaborative projects are listed on the navigation bar.
+          <span class="emp">Scroll down for more details!</span>
+        </p>
+        <div class="break"></div>
+        <p class="padding-down">the margin down part of about page</p>
+      </div>
+    </div>
+    <div id="works">
+      <div id="works-content">
+        <h1 id="overview-works">Overview of <span class="phone-show-newline">Selected Works</span></h1>
+        <ol>
+          <li class="list">
+            <b>Finding Knight&apos;s Tour</b>: A Java software for solving the ancient Knight&apos;s Tour puzzle.
+            I designed and implemented this tool, with its multi-threading graph searching algorithm.
+            It has a decent GUI with animation to show the solution. <a href="kt.html" target="_blank">Click</a> here
+            to enjoy it online (I embedded JavaFx into HTML). Also, you can download it as a desktop App:
+            for <a href="KnightsTour/Knight's Tour.dmg">Mac OS X</a>, or for <a href="kt-windows.html" target="_blank">Windows</a>. Source code is available
+            on <a href="https://github.com/SeanJia/KnightsTour" target="_blank">github.</a><br />
+          </li>
+          <li class="list">
+            <b>Unit Calculator</b>: A calculator that can understand unit. Specifically, users can define new units, simplify
+            expressions with units, and do normal operations on numbers with units. I put this calculator to the server
+            side (written in Java) so that users can use it on browsers. Enjoy it <a href="uc.html" target="_blank">online!</a>
+            If you want to view the source code for this software, go to <a href="https://github.com/SeanJia/UnitCalculator" target="_blank">github</a>.<br />
+          </li>
+          <li class="list">
+            <b>2048</b>: A special version of 2048 written in Java that the users can specify the size and shape of the board.
+            I also built a GUI for it and it will be on this website soon. Welcome to view my source code and play the game
+            on <a href="https://github.com/SeanJia/2048" target="_blank">github</a>.<br />
+          </li>
+          <li class="list">
+            <b>Nim</b>: A classic combinatorial game. Easy rule and pretty interesting. I implemented the algorithm for
+            this game and the code is write in Python 3.4 (NumPy package needed to run it). I am still testing
+            its GUI. View it on <a href="https://github.com/SeanJia/Nim" target="_blank">github</a> and try to beat the computer!<br />
+          </li>
+          <li class="list">
+            <b>Numerical Optimization Tools</b>: I wrote code in MATLAB and built some tools to solve nonlinear equations, as well as
+            for linear and nonlinear optimization. For linear programming, I used classic Simplex method in all-inequality form;
+            for nonlinear programming, I use modified Newton method (with backtracking). Now you can download the code on
+            <a href="https://github.com/SeanJia/NumericalOptimization" target="_blank">github</a>. Matlab compiler runtime evironment 
+            (MCR) needed.
+            <p class="padding-down">the margin down part of about page</p>
+            <p class="padding-down">the margin down part of about page</p>
+          </li>
+          <li id="phone-show-margin"></li>
+        </ol>
+      </div>
+    </div>
+    <div>
+    <div id="temp"></div>
+          <h1 id="info">
+            <br />
+            <hr />
+            More contents (project page and music page) will be come out soon for this website. Welcome to visit back.
+            Feel free to <a href="#contact">CONTACT</a> me!
+            <br />
+            <hr />
+            <br />
+          </h1>
+ <div class="latin">   <p>Lorem ipsum dolor sit amet, omnesque conclusionemque eum te, vis ne viderer mnesarchum. Eos ei tation mediocritatem.
+              Vis ex amet reque mediocrem, eam lucilius philosophia et. Usu eu posse appareat, usu et quidam appetere gloriatur. 
+              Consul minimum vim ut. Ferri nonumes usu ea, has quidam aeterno invidunt ad, at has possit oporteat moderatius.
+          </p>
+          <p>Porro vivendum percipitur cu sed, gloriatur reformidans ius ne. Verear nostrud eum at, ut ius tale periculis. Ea per graeci  
+             an porro dicta fastidii eum. Eu impedit eleifend consetetur nam. Ad utinam noster est. Vix noluisse sapientem deterruisset ad, eum 
+             eu erant voluptatum consectetuer.
+          </p>
+          <p>Nec modo porro error ex. No est clita primis doming, eu ignota doctus nam. Alterum deseruisse nec id, qui eu docendi perpetua 
+              reformidans. Vide vivendo nec id. Zril voluptatibus sed ei, case eleifend vix ex. Ei has convenire deseruisse reformidans, 
+              ius graece detracto theophrastus ei.
+          </p>
+          <p>Usu dolore labores perpetua eu. Ex sea nibh voluptua dignissim, eripuit facilis deterruisset ei eum, probo impedit recteque at 
+             est. Nec ex ludus verterem qualisque, ut ius legere appareat temporibus. Mundi virtute in mel, nec quaestio eloquentiam et. Ei 
+             duo probatus insolens. Vel alii viderer et, ad graece petentium explicari mei, dolor pertinax corrumpit vel ut. Ex tation facilisi 
+             cum, ea nullam rationibus nam.
+          </p>
+          <p>Et nam assum praesent, cu vix assueverit adversarium instructior. Eam in tempor labore voluptatum, id iudicabit ocurreret vix. Ex 
+             sit graeci debitis liberavisse, id sonet graece vulputate his. Usu ei zril facilisi disputationi. Prima rebum et nam, id usu 
+             semper conclusionemque.
+          </p> 
+    <div id="projects">
+          <p>Lorem ipsum dolor sit amet, omnesque conclusionemque eum te, vis ne viderer mnesarchum. Eos ei tation mediocritatem.
+              Vis ex amet reque mediocrem, eam lucilius philosophia et. Usu eu posse appareat, usu et quidam appetere gloriatur. 
+              Consul minimum vim ut. Ferri nonumes usu ea, has quidam aeterno invidunt ad, at has possit oporteat moderatius.
+          </p>
+          <p>Porro vivendum percipitur cu sed, gloriatur reformidans ius ne. Verear nostrud eum at, ut ius tale periculis. Ea per graeci  
+             an porro dicta fastidii eum. Eu impedit eleifend consetetur nam. Ad utinam noster est. Vix noluisse sapientem deterruisset ad, eum 
+             eu erant voluptatum consectetuer.
+          </p>
+          <p>Nec modo porro error ex. No est clita primis doming, eu ignota doctus nam. Alterum deseruisse nec id, qui eu docendi perpetua 
+              reformidans. Vide vivendo nec id. Zril voluptatibus sed ei, case eleifend vix ex. Ei has convenire deseruisse reformidans, 
+              ius graece detracto theophrastus ei.
+          </p>
+          <p>Usu dolore labores perpetua eu. Ex sea nibh voluptua dignissim, eripuit facilis deterruisset ei eum, probo impedit recteque at 
+             est. Nec ex ludus verterem qualisque, ut ius legere appareat temporibus. Mundi virtute in mel, nec quaestio eloquentiam et. Ei 
+             duo probatus insolens. Vel alii viderer et, ad graece petentium explicari mei, dolor pertinax corrumpit vel ut. Ex tation facilisi 
+             cum, ea nullam rationibus nam.
+          </p>
+          <p>Et nam assum praesent, cu vix assueverit adversarium instructior. Eam in tempor labore voluptatum, id iudicabit ocurreret vix. Ex 
+             sit graeci debitis liberavisse, id sonet graece vulputate his. Usu ei zril facilisi disputationi. Prima rebum et nam, id usu 
+             semper conclusionemque.
+          </p> 
+    </div>
+    <div id="music">
+          <p>Lorem ipsum dolor sit amet, omnesque conclusionemque eum te, vis ne viderer mnesarchum. Eos ei tation mediocritatem.
+              Vis ex amet reque mediocrem, eam lucilius philosophia et. Usu eu posse appareat, usu et quidam appetere gloriatur. 
+              Consul minimum vim ut. Ferri nonumes usu ea, has quidam aeterno invidunt ad, at has possit oporteat moderatius.
+          </p>
+          <p>Porro vivendum percipitur cu sed, gloriatur reformidans ius ne. Verear nostrud eum at, ut ius tale periculis. Ea per graeci  
+             an porro dicta fastidii eum. Eu impedit eleifend consetetur nam. Ad utinam noster est. Vix noluisse sapientem deterruisset ad, eum 
+             eu erant voluptatum consectetuer.
+          </p>
+          <p>Nec modo porro error ex. No est clita primis doming, eu ignota doctus nam. Alterum deseruisse nec id, qui eu docendi perpetua 
+              reformidans. Vide vivendo nec id. Zril voluptatibus sed ei, case eleifend vix ex. Ei has convenire deseruisse reformidans, 
+              ius graece detracto theophrastus ei.
+          </p>
+          <p>Usu dolore labores perpetua eu. Ex sea nibh voluptua dignissim, eripuit facilis deterruisset ei eum, probo impedit recteque at 
+             est. Nec ex ludus verterem qualisque, ut ius legere appareat temporibus. Mundi virtute in mel, nec quaestio eloquentiam et. Ei 
+             duo probatus insolens. Vel alii viderer et, ad graece petentium explicari mei, dolor pertinax corrumpit vel ut. Ex tation facilisi 
+             cum, ea nullam rationibus nam.
+          </p>
+          <p>Et nam assum praesent, cu vix assueverit adversarium instructior. Eam in tempor labore voluptatum, id iudicabit ocurreret vix. Ex 
+             sit graeci debitis liberavisse, id sonet graece vulputate his. Usu ei zril facilisi disputationi. Prima rebum et nam, id usu 
+             semper conclusionemque.
+          </p> 
+          <br /><br /><br />
+    </div>
+ </div>
+    <div id="contact">
+      <div id="contact-content">
+        <h1 id="contact-title">CONTACT</h1>
+        <ul id="contact-list">
+          <li>
+            Name: Zhiwei Jia
+          </li>
+          <li>
+            University: UCSD
+          </li>
+          <li>
+            E-mail: <a class="link" href="mailto: zjia@ucsd.edu" target="_top">zjia@ucsd.edu</a>
+          </li>
+          <li>
+            Github: <a class="link" href="https://github.com/SeanJia" target="_blank"><span class="link-for-short">https://github.com/</span>SeanJia</a>
+          </li>
+          <li>
+            LinkedIn: <a class="link" href="https://www.linkedin.com/in/zhiweijia" target="_blank"><span class="link-for-short">https://www.linkedin.com/in/</span>zhiweijia</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <footer>
+      <div id="footer">
+        <hr />
+        <p id="ending">
+          This site is created by Zhiwei Jia, and is tested in IE10, Chrome, Safari and FireFox.
+          Website is still in built, and is designed as responsive for different size of screens (mobile-friendly). 
+          Last modified by 08/17/2015.
+        </p>
+        <div class="for-site-stat">
+          <script>
+            var sc_project=10567963;
+            var sc_invisible=0;
+            var sc_security="b478c02c";
+            var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
+            document.write("<sc"+"ript type='text/javascript' src='" + scJsHost + "statcounter.com/counter/counter.js'></"+"script>");
+          </script>
+          <a id="site-stat" href="http://statcounter.com/p10567963/?guest=1" target="_blank">View Site Stat</a><br />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
