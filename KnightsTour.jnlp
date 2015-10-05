@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="KnightsTour.jnlp">
+  <information>
+    <title>KnightsTour</title>
+    <vendor>Zhiwei Jia</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="KnightsTour.jar" size="25404" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <jfx:javafx-desc  width="680" height="645" main-class="KTGui"  name="Knight's Tour" />
+  <update check="background"/>
+</jnlp>
