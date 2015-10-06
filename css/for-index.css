@@ -91,7 +91,6 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     margin-top: 100px;
-    margin-down: -100px;
     border-color: green;
 }
 
@@ -154,7 +153,6 @@ body {
     width: 83vh;
     margin: auto;
     margin-top: 100px;
-    padding-down: 100px;
     font-size: 30px;
     text-align: center;
 }
@@ -274,7 +272,6 @@ body {
         height: auto;
         padding-top: 0px;
         margin-top: 30px;
-        margin-down: -100px;
         border-width: 0px;
         padding-left: 5%;
         padding-right: 5%;
@@ -294,7 +291,6 @@ body {
     
     #projects {
     	height: auto;
-    	margin-down: 100px;
     	margin-top: 50px;
     }
     
@@ -358,7 +354,6 @@ body {
     
     #projects {
     	height: auto;
-    	margin-down: 100px;
     	margin-top: 50px;
     }
     
@@ -432,7 +427,6 @@ body {
         height: auto;
         padding-top: 0px;
         margin-top: 30px;
-        margin-down: -100px;
         border-width: 0px;
         padding-left: 5%;
         padding-right: 5%;
