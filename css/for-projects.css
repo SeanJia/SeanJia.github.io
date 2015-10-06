@@ -155,11 +155,16 @@
 }
 
 
-/* Override media heading margins*/
+/* Override media margins*/
 
 .media-heading {
 	margin-bottom: 0px;
 }
+
+.media-object {
+	margin-top: 7px;
+}
+
 
 
 /*======Utilities======*/
