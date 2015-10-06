@@ -119,6 +119,7 @@ body {
     min-height: 103vh;
     background-color: lightgray;
     margin-top: 100px;
+    padding-bottom: 110px;
 }
 
 #projects-content {
