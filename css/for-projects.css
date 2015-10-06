@@ -1,6 +1,4 @@
 
-
-
 #pinBoot {
 	z-index: 100;
 	height: 100%;
@@ -86,6 +84,7 @@
 .list-group-item {
 	border: none;
 	margin-bottom: 0px;
+	padding-down: 5px;
 }
 
 .fill-parent {
