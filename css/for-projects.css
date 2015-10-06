@@ -97,7 +97,11 @@
 }
 
 
-/* Override project top border radius*/
+/* Override project top related stuff */
+
+.project-container {
+	maring-top: 100px;
+}
 
 .list-group-item:first-child {
 	border-top-right-radius: 0px;
