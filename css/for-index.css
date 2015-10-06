@@ -113,7 +113,7 @@ body {
     padding-top: 25px;
 }
 
-#works {
+#projects {
     width: 100%;
     height: auto;
     min-height: 103vh;
@@ -121,7 +121,7 @@ body {
     margin-top: 100px;
 }
 
-#works-content {
+#projects-content {
     margin: auto;
     padding-top: 10vh;
     width: 83%;
@@ -131,13 +131,13 @@ body {
     font-size: 125%;
 }
 
-#overview-works {
+#overview-projects {
     font-size: 210%;
     height: 13%;
     margin-left: 2%;
 }
 
-.works {
+.projects {
     width: 80%
 }
 
@@ -287,13 +287,13 @@ body {
     	display: block;
     }
     
-    #works {
+    #projects {
     	height: auto;
     	margin-down: 100px;
     	margin-top: 50px;
     }
     
-    #works-content {
+    #projects-content {
     	height: 100%;
     	font-size: 100%;
     	width: 100%;
@@ -351,13 +351,13 @@ body {
     	display: block;
     }
     
-    #works {
+    #projects {
     	height: auto;
     	margin-down: 100px;
     	margin-top: 50px;
     }
     
-    #works-content {
+    #projects-content {
     	height: 100%;
     	font-size: 100%;
     	width: 100%;
