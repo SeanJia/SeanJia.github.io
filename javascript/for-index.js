@@ -7,8 +7,9 @@ $(document).ready(function(){
 /* for sticky navbar on the top */
 $(document).ready(function() {
     var navbar = $("#navbar");
-    var theTop = navbar.offset().top;
     function scroll() {
+        var theTop = navbar.offset().top;
+
         if ($(window).scrollTop() >= theTop) {
             $("#navbar").addClass("navbar-fixed-top");
             $("#fixed-top").addClass("navbar-padding");

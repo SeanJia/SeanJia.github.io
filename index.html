@@ -4,10 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <title>Zhiwei Jia - Personal Website</title>
-    <meta name="description" content="Welcome to my personal website! I am Zhiwei Jia, a sophomore at University of California, San Diego. I double majors in Computer Science and Applied Mathematics and have broad interest into these two areas." />
+    <meta name="description" content="Welcome to my personal website! I am Zhiwei Jia, an undergraduate student at University of California, San Diego. I double majors in Computer Science and Applied Mathematics." />
     <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" />
     <link rel="stylesheet" href="css/for-index.css" />
-    <link rel="stylesheet" href="css/for-projects.css">
+    <link rel="stylesheet" href="css/for-projects.css" />
+    <link rel="stylesheet" href="css/animate.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="javascript/for-index.js"></script>
@@ -15,9 +16,10 @@
   </head>
   <body>
     <div class="container" id="home">
-      <h1 id="name-home">Zhiwei Jia</h1>
-      <p id="welcome">Developer & Researcher<br />Scroll down for more.</p>
+      <h1 class="animated flipInX" id="name-home">Zhiwei Jia</h1>
+      <p class="animated bounceIn" id="welcome">Developer & Researcher</p>
       <p id="welcome-alt">Welcome! Scroll down for more.</p>
+      <p class="animated fadeInUp" id="intro">You can also call me Sean. I am currently a second year student with senior standing at University of California, San Diego. I double majors in Computer Science and Applied Mathematics. I enjoy learning and working on projects related to web application, mobile development, computer vision, data mining, and high performance computing. I am especially keen on doing research in machine learning. Currently I work as a undergraduate researcher at <a class="link" href="http://pages.ucsd.edu/~ztu/" target="_blank">Machine Learning, Perception, and Cognition Lab</a> on a deep learning project.</p>
     </div>
     <nav class="navbar navbar-inverse" id="navbar">
       <div class="container-fluid">
@@ -29,19 +31,21 @@
         </div>
         <div class="collapse navbar-collapse" id="collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="#home">About</a></li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Project<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="#projects">Overview</a></li>
                 <li class="divider"></li>
-                <li><a href="#projects">Handwritten Digit Recognition</a></li>
-                <li><a href="kt.html" target="_blank">Knight&apos;s Tour Puzzle</a></li>
+                <li><a href="#projects">Calendar+</a></li>
+                <li><a href="#projects">Deep Learning Library</a></li>
+                <li><a href="#projects">Optimal Huffman Coding</a></li>
+                <li><a href="#projects">Efficient Auto-Complete</a></li>
                 <li><a href="uc.html" target="_blank">Online Unit Calculator</a></li>
-                <li><a href="#projects">The Board Game 2048+</a></li>
-                <li><a href="#projects">The Conbinatorial Game Nim</a></li>
-                <li><a href="#projects">Optimization Tools & Equations Solver</a></li>
+                <li><a href="kt.html" target="_blank">Knight&apos;s Tour Puzzle Solver</a></li>
+                <li><a href="#projects">Board Game 2048+</a></li>
+                <li><a href="#projects">Nim Master</a></li>
+                <li><a href="#projects">Numerical Optimization Tools</a></li>
                 <li><a href="#projects">HackStatus.io</a></li>
               </ul>
             </li>
@@ -50,12 +54,10 @@
               <ul class="dropdown-menu">
                 <li><a href="#temp">Overview</a></li>
                 <li class="divider"></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">In</a></li>
-                <li><a href="#">Progress</a></li>
+                <li><a href="#">DeepFlying</a></li>
+                <li><a href="#">High Performance Geo-Computing</a></li>
               </ul>
             </li>
-            <li><a href="#temp">Music<span class="glyphicon glyphicon-headphones icon"></span></a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right" id="nav-right">
             <li><a href="#contact">Contact<span class="glyphicon glyphicon-user icon"></span></a></li>
@@ -64,49 +66,40 @@
       </div>
     </nav>
     <div id="fixed-top"></div>
-    <div id="about">
-      <div id="about-content">
-        <h1 id="name-intro">Hi, I am <span class="phone-show-newline">Zhiwei Jia...</span></h1>
-        <div id="break"></div>
-        <p>
-          You can also call me Sean. I am a sophomore at University of California, San Diego.
-          I double majors in Computer Science and Applied Mathematics and have broad interest
-          into these two areas. I study on machine learning, data mining, computer vision, optimization,
-          web programming and high performance computing. Currently I work as research assistant at San Diego
-          Supercomputer Center (SDSC) in the hpgeo-computing group. Also I am doing several researches on 
-          applying machine learning to computer vision problem, including .
-        </p>
-        <div class="break"></div>
-        <p>
-          Personally I enjoy classical music very much. I have been playing the piano since I was
-          five. Chopin&apos;s and Beethoven&apos;s works are my favorites. I have included some of 
-          those classical pieces in this website. Click "Music" in the navigation bar to enjoy them.
-        </p>
-        <div class="break"></div>
-        <p>
-          I built this site with the assistance of Chenxing Ouyang, my friend and co-worker. My selected personal
-          works, collaborative projects and academic researches are listed.
-          <span class="emp">Scroll down for more details!</span>
-        </p>
-        <div class="break"></div>
-        <p class="padding-down">the margin down part of about page</p>
-      </div>
-    </div>
     <div id="projects">
       <div id="project-container">
         <section id="pinBoot">
           <div class="project">
             <ul class="list-group">
               <li class="list-group-item shadow">
-                <span class="label label-info">Machine Learning</span>
-                <span class="label label-info">Python</span>
+                <span class="label label-info">Android</span>
+                <span class="label label-info">Servlet</span>
+                <span class="label label-info">JDBC</span>
                 <br />
-              <img class="media-object img-responsive" src="image/hdr.png" />
+              <img class="media-object img-responsive" src="image/calender.png" />
               <li class="list-group-item background-color1 project-description">
-                <p>A handwritten digit recognition (HDR) package. Specifically I built from scratch a generic full-connected neural network powered by mini-batch technique. Trained it with MNIST database and resulted in 96 percent of correctness for HDR. Online demo will come out soon. <a href="https://github.com/SeanJia/ClassicNN-for-handwritten-digit-recognition" target="_blank">Code</a> is now available on Github. Plan to make it online for user's experiment</p>
+                  <p>An Android app as a mixture of calendar and todo-list. Supportive of dynamic allocation of tasks with deadline. Designed and implemented a login system and a notification system. Download <a href="something">HERE</a>, tested on Android 5.0. View <a href="https://github.com/SeanJia/CalendarPlus" target="_blank">SOURCE</a>.
+                </p>
               </li>
               <li class="list-group-item">
-                <h4 class="media-heading move-text-center">Handwritten Digit Recognition</h4>
+                <h4 class="media-heading move-text-center">Calendar+</h4>
+              </li>
+            </ul>
+          </div>
+          <div class="project">
+            <ul class="list-group">
+              <li class="list-group-item shadow">
+                <span class="label label-info">Deep Learning</span>
+                <span class="label label-info">Python</span>
+                <span class="label label-info">CUDA</span>
+                <br />
+              <img class="media-object img-responsive" src="image/deep-learning.jpg" />
+              <li class="list-group-item background-color1 project-description">
+                <p>A deep learning library written in Python and CUDA. Designed and implemented from scratch. Including a fully connected feedforward neural network and a long short-term memory (a special kind of recurrent neural net). Sample applications in handwritten digit recognition and language modeling. Achieved 98.5% test accuracy on MNIST (around state-of-the-art). View <a href="https://github.com/SeanJia/DeepLearningLibrary" target="_blank">SOURCE</a>.
+                </p>
+              </li>
+              <li class="list-group-item">
+                <h4 class="media-heading move-text-center">Deep Learning Library</h4>
               </li>
             </ul>
           </div>
@@ -120,10 +113,10 @@
                 <br />
               <img class="media-object img-responsive" src="image/unicalc.png" />
               <li class="list-group-item background-color1 project-description">
-                <p>A unit calculator developed by Xuanpei Ouyang and me. This is built as a parser and interpreter. Specifically, users can define new units, simplify expressions, and do calculations on numbers with units. I deploy this software to the server side with database for user-defined units. Try it <a href="uc.html" target="_blank">here</a>! Or view <a href="https://github.com/SeanJia/UnitCalculator" target="_blank">code</a> on Github</p>
+                <p>An online unit calculator. Built with a parser and an interpreter. Specifically, users can define new units, simplify expressions, and do calculations on numbers with units. Deploied on server with PostgreSQL for user-defined units. Try it <a href="uc.html" target="_blank">HERE</a>. Or view <a href="https://github.com/SeanJia/UnitCalculator" target="_blank">SOURCE</a>.</p>
               </li>
               <li class="list-group-item">
-                <h4 class="media-heading move-text-center">Unit Calculator</h4>
+                <h4 class="media-heading move-text-center">Online Unit Calculator</h4>
               </li>
             </ul>
           </div>
