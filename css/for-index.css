@@ -103,13 +103,14 @@ body {
     min-width: 850px;
     background-repeat: repeat-y;
     padding-top: 120px;
+    background-size: cover;
 }
 
 .research {
     margin-left: 13vw;
     margin-right: 13vw;
     float: left;
-    width: 77vw;
+    width: 74vw;
     background-color: lightgrey;
     padding-left: 1vw;
     padding-right: 1vw;
@@ -130,6 +131,7 @@ body {
 
 .research-img {
     max-width: 25vw;   
+    max-height: 25vh;
 }
 
 .research-link {
@@ -202,6 +204,9 @@ body {
 #phone-show-margin {
     display: none;
 }
+
+
+
 
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait) { 

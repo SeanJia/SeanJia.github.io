@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Unit Calculator</title>
+    <title>Online Unit Calculator</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="javascript/for-uc.js"></script>
     <link rel="stylesheet" href="css/for-uc.css" />
@@ -10,21 +10,18 @@
   <body>
     <div id="uc-container">
       <div id="uc-content">
-        <h1 id="title">Unit Calculator</h1>
+        <h1 id="title">Online Unit Calculator</h1>
         <div id="instr">
           <p>
-            This is a unit calculator written in Java that can understand units, define new units, evaluate expressions with units,
-            and simplify them by normalization. The core part is implemented by 
-            Xuanpei Ouyang and me (Zhiwei Jia). We built a parser as well as an interpreter for this
-            software. Please notice that owing to its recursive algorithm, this calculator is right-associative. I deployed it on the server
-            side using Java servlet with a unit database. Cookies are utilized for storing user&apos;s history (with a maximum size).
+            A unit calculator written in Java that can understand units, define new units, evaluate expressions with units,
+            and simplify them by normalization. Please notice that owing to the parser built for this program, this calculator is right-associative. Deployed on the server side via Servlet, it uses PostgreSQL for for soring user-defined units. Cookies are utilized for storing user&apos;s history on the client side.
           </p>
           <p>
             Here are the instructions for this calculator. Type in expressions with units, e.g., 2m + 3m will result 5m.
             You can also define new units, e.g., def lightspeed 300000km/s. For multiple units, normalization is performed
             automatically, as 6m / 3m will result in 2m. Implicit normalization is supported by type in #, e.g.,
-            # lightspeed will return 300000000.0 meter second^-1. As Java is case-sentivie, please notice that 5M is not
-            the same quantity as 5m. Good luck and enjoy! View source code at <a href="https://github.com/SeanJia/UnitCalculator" target="_blank">github</a>.
+            # lightspeed will return 300000000.0 meter second^-1. As Java is case-sensitive, notice that 5M is not
+            the same quantity as 5m. Good luck and enjoy! View source <a href="https://github.com/SeanJia/UnitCalculator" target="_blank">HERE</a>.
           </p>
         </div>
         <hr />
@@ -33,9 +30,9 @@
             Enter your input: <input type="text" name="input" id="input" onclick="empty(this)" onkeydown="clearInput(event, this)" /><br />
           </form>
             <input id="clear" type="button" name="input" value="clear history" onclick="clearHistory()" />
-            <iframe id="result" height="400px" width="600px" name="frame"></iframe>
+            <iframe id="result" height="400px" width="650px" name="frame"></iframe>
         </div>
-        <br /><hr /><a href="http://zhiweijia.net">Go back to Zhiwei Jia&apos;s home page</a>
+        <br /><hr /><a id="homepage" href="http://zhiweijia.net">Go back to Zhiwei Jia&apos;s home page</a>
       </div>
     </div>
   </body>
