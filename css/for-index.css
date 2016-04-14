@@ -1,12 +1,12 @@
 @import url("http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
 
 #home {
-    background-image: url("../image/material-bg.png");
+    background-image: url("../image/home-bg.png");
     background-size: 100% 100%;
     width: 100%;
     height: 100vh;
     min-height: 600px;
-    min-width: 800px;
+    min-width: 850px;
 }
 
 #name-home {
@@ -73,9 +73,12 @@ body {
     width: 100%;
     height: auto;
     min-height: 102vh;
-    background-image: url("../image/project-bg.jpg");
+    background-image: url("../image/project-bg.png");
     margin-top: -25px;
     padding-bottom: 50px;
+    padding-top: 20px;
+    background-repeat: repeat-y;
+    background-size: cover;
 }
 
 #project-container {
@@ -92,18 +95,56 @@ body {
     width: 80%
 }
 
+#researches {
+    background-image: url("../image/research-bg.png");
+    width: 100%;
+    height: auto;
+    min-height: 103vh;
+    min-width: 850px;
+    background-repeat: repeat-y;
+    padding-top: 120px;
+}
 
+.research {
+    margin-left: 13vw;
+    margin-right: 13vw;
+    float: left;
+    width: 77vw;
+    background-color: lightgrey;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    margin-bottom: 5vh;
+}
+
+.research-text {
+    float: left;
+    width: 44vw;
+}
+
+.research-image {
+    float: right;
+    width: 25vw;
+}
+
+.research-img {
+    max-width: 25vw;   
+}
+
+.research-link {
+    color: darkgoldenrod;
+}
 
 #contact {
     width: 100%;
     height: auto;
-    min-height: 105vh;
+    min-height: 103vh;
     background-image: url("../image/contact-background.jpg");
     background-size: 100% 100%;
     padding: 0px;
     margin: 0px;
     font-family: Times New Roman;
-    width: 100%;
 }
 
 #contact-content {
@@ -146,35 +187,22 @@ body {
 }
 
 #footer {
-    width: 83%;
-    height: 20vh;
+    width: 50vw;
+    height: auto;
     margin: auto;
+    margin-bottom: 10px;
 }
 
 #ending {
-    width: 600px;
     margin: auto;
     color: gray;
     text-align: center;
 }
 
-.for-site-stat {
-    width: 100px;
-    margin: auto;
-    margin-top: 10px;
-}
-
-#site-stat {
-    display: block;
-    text-align: center;
-    margin: auto;
-    border-style: solid;
-    border-width: 2px;
-}
-
 #phone-show-margin {
     display: none;
 }
+
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait) { 
     #home {
