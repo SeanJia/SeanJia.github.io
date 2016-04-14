@@ -26,4 +26,9 @@ $(document).ready(function() {
 });
 
 
+/* for loading the home page text after finish loading the whole site */
+$(window).load(function() {
+     $("home").hide();
+});
+
 
