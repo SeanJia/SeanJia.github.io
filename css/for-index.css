@@ -150,7 +150,7 @@ body {
 }
 
 #contact-pad {
-    height: 15vh;
+    height: 12vh;
 }
 
 #contact-content {
@@ -201,6 +201,7 @@ body {
     margin-right: auto;
     opacity: 1;
     color: black;
+    padding-bottom: 50px;
 }
 
 #footer {
