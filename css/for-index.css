@@ -149,18 +149,30 @@ body {
     font-family: Times New Roman;
 }
 
+#contact-pad {
+    height: 15vh;
+}
+
 #contact-content {
-    width: 83%;
+    width: 50vw;
     height: auto;
-    min-height: 83vh;
-    margin: auto;
-    padding-top: 100px;
+    min-height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 180%;
     color: white;
+    background-color: antiquewhite;
+    opacity: 0.6;
+    border: 1px solid white;
 }
 
 .link {
     color: yellow;
+    margin-top: 20px;
+}
+
+.link-contact {
+    color: blue;
     margin-top: 20px;
 }
 
@@ -176,9 +188,10 @@ body {
     padding-top: 50px;
     width: 18%;
     margin: auto;
-    color: white;
+    color: black;
     font-size: 40px;
     text-align: center;
+    opacity: 1;
 }
 
 #contact-list {
@@ -186,6 +199,8 @@ body {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    opacity: 1;
+    color: black;
 }
 
 #footer {
