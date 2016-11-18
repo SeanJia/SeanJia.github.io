@@ -99,10 +99,10 @@ body {
     background-image: url("../image/research-bg.png");
     width: 100%;
     height: auto;
-    min-height: 103vh;
+    min-height: 106vh;
     min-width: 850px;
     background-repeat: repeat-y;
-    padding-top: 120px;
+    padding-top: 100px;
     background-size: cover;
 }
 
