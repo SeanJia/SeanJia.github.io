@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <title>Zhiwei Jia - Personal Website</title>
-    <meta name="description" content="Welcome to my personal website! I am Zhiwei Jia, an undergraduate student at University of California, San Diego. I double majors in Computer Science and Applied Mathematics." />
+    <meta name="description" content="Welcome to my personal website! I am Zhiwei Jia, a student at University of California, San Diego." />
     <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" />
     <link rel="stylesheet" href="css/for-index.css" />
     <link rel="stylesheet" href="css/for-projects.css" />
@@ -19,7 +19,7 @@
       <h1 class="animated flipInX" id="name-home">Zhiwei Jia</h1>
       <p class="animated bounceIn" id="welcome">Developer & Researcher</p>
       <p id="welcome-alt">Welcome! Scroll down for more.</p>
-      <p class="animated fadeInUp" id="intro">You can also call me Sean. I am currently a second year student with senior standing at University of California, San Diego. I double majors in Computer Science and Applied Mathematics. I enjoy learning and working on projects related to web application, mobile development, computer vision, data mining, and high performance computing. I am especially keen on doing research in machine learning. Currently I work as a undergraduate researcher at <a class="link" href="http://pages.ucsd.edu/~ztu/" target="_blank">Machine Learning, Perception, and Cognition Lab</a> on a deep learning project.</p>
+      <p class="animated fadeInUp" id="intro">You can also call me Sean. I am currently pursuing B.S./M.S. (combined program) in Computer Science at University of California, San Diego. I am also pursuing a B.S. in Applied Mathematics as my second major. I enjoy learning and working on projects related to machine learning, computer vision, data mining, and high performance computing. I am now doing research at <a class="link" href="http://pages.ucsd.edu/~ztu/" target="_blank">Machine Learning, Perception, and Cognition Lab</a> and luckily advised by Prof. Zhuowen Tu.</p>
     </div>
     <nav class="navbar navbar-inverse" id="navbar">
       <div class="container-fluid">
@@ -55,6 +55,7 @@
                 <li><a href="#researches">Overview</a></li>
                 <li class="divider"></li>
                 <li><a href="researches">DeepFlying</a></li>
+                <li><a href="researches">Large Scale Electrophysiology Simulation</a></li>  
                 <li><a href="#researches">High Performance Geo-Computing</a></li>
               </ul>
             </li>
@@ -89,17 +90,33 @@
           <div class="project">
             <ul class="list-group">
               <li class="list-group-item shadow">
-                <span class="label label-info">Deep Learning</span>
                 <span class="label label-info">Python</span>
+                <span class="label label-info">Theano</span>
                 <span class="label label-info">CUDA</span>
                 <br />
               <img class="media-object img-responsive" src="image/deep-learning.jpg" />
               <li class="list-group-item background-color1 project-description">
-                <p>A deep learning library written in Python and CUDA. Designed and implemented from scratch. Including a fully connected feedforward neural network and a long short-term memory (a special kind of recurrent neural net). Sample applications in handwritten digit recognition and language modeling. Achieved 98.5% test accuracy on MNIST (around state-of-the-art). View <a href="https://github.com/SeanJia/DeepLearningLibrary" target="_blank">SOURCE</a>.
+                <p>A GPU-supported Neural Network library that consists of feed-forward and recurrent net with different implementation versions. A deep learning library written in Python and CUDA. Designed and implemented from scratch. Including a fully connected feedforward neural network and a long short-term memory (a special kind of recurrent neural net). Sample applications in handwritten digit recognition and language modeling. Achieved 98.5% test accuracy on MNIST (around state-of-the-art). View <a href="https://github.com/SeanJia/DeepLearningLibrary" target="_blank">SOURCE</a>.
                 </p>
               </li>
               <li class="list-group-item">
-                <h4 class="media-heading move-text-center">Deep Learning Library</h4>
+                <h4 class="media-heading move-text-center">Neural Net Library</h4>
+              </li>
+            </ul>
+          </div>
+          <div class="project">
+            <ul class="list-group">
+              <li class="list-group-item shadow">
+                <span class="label label-info">Interpreter</span>
+                <span class="label label-info">OCaml</span>
+                <br />
+              <img class="media-object img-responsive" src="image/ocaml.png" />
+              <li class="list-group-item background-color1 project-description">
+                <p>A basic interpreter written in <a href="https://www.ocaml.org" target="_blank">OCaml</a> for OCaml, which interpret a subset of OCaml language into offical OCaml. It's supportive of arithmetic operations, function declarations, recursions and the list data structure. View source <a href="https://github.com/SeanJia/OCaml-Mini-Interpreter" target="_blank">here</a>.
+                </p>
+              </li>
+              <li class="list-group-item">
+                <h4 class="media-heading move-text-center">OCaml Mini Interpreter</h4>
               </li>
             </ul>
           </div>
@@ -156,8 +173,7 @@
             <ul class="list-group">
               <li class="list-group-item shadow">
                 <span class="label label-info">Multi-thread search</span>
-                <span class="label label-info">GUI</span>
-                <span class="label label-info">Java</span>
+                <span class="label label-info">JavaFx</span>
                 <br />
               <img class="media-object img-responsive" src="image/kt.png" />
               <li class="list-group-item background-color1 project-description">
@@ -216,7 +232,7 @@
           <div class="project">
             <ul class="list-group">
               <li class="list-group-item shadow">
-                <span class="label label-info">Recommendation System</span>
+                <span class="label label-info">Recommender System</span>
                 <br />
               <img class="media-object img-responsive" src="image/hack.png" />
               <li class="list-group-item background-color1 project-description">
@@ -234,9 +250,9 @@
       <div class="research">
           <div class="research-text">
             <p class="research-head">
-              Undergraduate Student Researcher<br />@ <a class="research-link" href="http://pages.ucsd.edu/~ztu/" target="_blank">Machine Learning, Perception, and Cognition Lab</a> 
+              Research Assistant<br />@ <a class="research-link" href="http://pages.ucsd.edu/~ztu/" target="_blank">Machine Learning, Perception, and Cognition Lab</a> 
             </p>
-            <p class="research-body">Under supervision of Prof. Zhuowen Tu, currently working in DeepFlying, a research project of automomous quad-copter trained via deep convolutional neural net with a direct learning approach of carefullly designed affordance indicators. This project utilize huge amount of simulated data in a video game developed in Unity.</p>
+            <p class="research-body">Currently working in a deep learning research project of automomous quad-copter for vision related tasks. Supervised by Prof. Zhuowen Tu and collaborated with Northrop Grumman.</p>
           </div>
           <div class="research-image">
             <img class="research-img" src="image/deepflying.png"/>
@@ -245,12 +261,12 @@
       <div class="research">
           <div class="research-text">
             <p class="research-head">
-              Undergraduate Student Researcher<br />@ <a class="research-link" href="http://pages.ucsd.edu/~ztu/" target="_blank">Machine Learning, Perception, and Cognition Lab</a> 
+              Research Assistant<br />@ <a class="research-link" href="http://cmrg.ucsd.edu/" target="_blank">Cardiac Mechanics Research Group</a> 
             </p>
-            <p class="research-body">Under supervision of Prof. Zhuowen Tu, currently working in DeepFlying, a research project of automomous quad-copter trained via deep convolutional neural net with a direct learning approach of carefullly designed affordance indicators. This project utilize huge amount of simulated data in a video game developed in Unity.</p>
+            <p class="research-body">Optimizing parallel computation code in Python/C++/CUDA for Continuity, a large scale electrophysiology simulation software package. Specifially dealing with numerical solvers for ODE and PDE</p>
           </div>
           <div class="research-image">
-            <img class="research-img" src="image/deepflying.png"/>
+            <img class="research-img" src="image/continu"/>
           </div>
       </div>
     </div>
@@ -282,7 +298,7 @@
         <p id="ending">
           This site is created by Zhiwei Jia, and is tested in IE10, Chrome, Safari and FireFox.
           Website is still in built, and is designed as mobile-friendly. 
-          Lastly modified by 04/13/2016.
+          Lastly modified by 11/17/2016.
         </p>
       </div>
     </footer>
