@@ -103,13 +103,14 @@ body {
     min-width: 850px;
     background-repeat: repeat-y;
     padding-top: 120px;
+    background-size: cover;
 }
 
 .research {
     margin-left: 13vw;
     margin-right: 13vw;
     float: left;
-    width: 77vw;
+    width: 74vw;
     background-color: lightgrey;
     padding-left: 1vw;
     padding-right: 1vw;
@@ -130,6 +131,7 @@ body {
 
 .research-img {
     max-width: 25vw;   
+    max-height: 25vh;
 }
 
 .research-link {
@@ -140,25 +142,37 @@ body {
     width: 100%;
     height: auto;
     min-height: 103vh;
-    background-image: url("../image/contact-background.jpg");
+    background-image: url("../image/contact-bg.jpg");
     background-size: 100% 100%;
     padding: 0px;
     margin: 0px;
     font-family: Times New Roman;
 }
 
+#contact-pad {
+    height: 12vh;
+}
+
 #contact-content {
-    width: 83%;
+    width: 50vw;
     height: auto;
-    min-height: 83vh;
-    margin: auto;
-    padding-top: 100px;
+    min-height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 180%;
     color: white;
+    background-color: antiquewhite;
+    opacity: 0.6;
+    border: 1px solid white;
 }
 
 .link {
     color: yellow;
+    margin-top: 20px;
+}
+
+.link-contact {
+    color: blue;
     margin-top: 20px;
 }
 
@@ -174,9 +188,10 @@ body {
     padding-top: 50px;
     width: 18%;
     margin: auto;
-    color: white;
+    color: black;
     font-size: 40px;
     text-align: center;
+    opacity: 1;
 }
 
 #contact-list {
@@ -184,6 +199,9 @@ body {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    opacity: 1;
+    color: black;
+    padding-bottom: 50px;
 }
 
 #footer {
@@ -202,6 +220,9 @@ body {
 #phone-show-margin {
     display: none;
 }
+
+
+
 
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait) { 
