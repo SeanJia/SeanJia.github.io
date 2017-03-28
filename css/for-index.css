@@ -227,7 +227,7 @@ body {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait) { 
     #home {
-        background-image: url("../image/phone-portrait.png");
+        background-image: url("../image/home-bg-phone.jpg");
         overflow-x: hidden;
     }
     
@@ -385,11 +385,6 @@ body {
     	font-size: 100%;
     }
     
-    #home {
-        background-image: url("../image/phone-landscape.png");
-        overflow-x: hidden;
-    }
-    
     #name-home {
     	font-size: 40px;
     	margin-left: 10%;
@@ -437,36 +432,6 @@ body {
     
     #info {
     	width: 90vw;
-    }
-    
-    .padding-down {
-        display: none;
-    }
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
-    #home {
-        background-image: url("../image/tablet-portrait.png");
-        height: 1024px;
-    }
-    
-    body {
-    	min-width: 0px;
-    }
-    
-    .padding-down {
-        display: none;
-    }
-}
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation: landscape){
-    #home {
-        background-image: url("../image/beach.png");
-        height: 768px;
-    }
-    
-    body {
-    	min-width: 0px;
     }
     
     .padding-down {
