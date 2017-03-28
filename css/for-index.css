@@ -229,6 +229,7 @@ body {
     
     body {
         min-width: 0px;
+        width: 100vw;
     }
     
     #researches {
