@@ -225,6 +225,7 @@ body {
         min-height: 0px;
         min-width: 0px;
         width: 100vw;
+        padding-top: 0px;
     }
     
     body {
@@ -241,8 +242,8 @@ body {
 
     #name-home {
         font-size: 30px;
-        color: blue;
-        margin-top: 10vh;
+        color: aquamarine;
+        margin-top: 40px;
     }
 
     #welcome {
