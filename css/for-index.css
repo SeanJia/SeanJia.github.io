@@ -131,6 +131,7 @@ body {
     background-image: url("../image/contact-bg.jpg");
     background-size: 100% 100%;
     padding: 0px;
+    padding-top: 100px;
     margin: 0px;
     font-family: Times New Roman;
 }
@@ -253,7 +254,11 @@ body {
     
     #contact-content {
         width: 90vw;
-        font-size: 15px;
+        font-size: 20px;
+    }
+    
+    #contact {
+        padding-top: 0px;
     }
 }
 
