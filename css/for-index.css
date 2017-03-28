@@ -228,7 +228,11 @@ body {
         width: 100vw;
         padding-top: 50px;
         background-size: auto;
-        height: 200vh;
+        height: 190vh;
+    }
+    
+    .research-text {
+        width: 60vw;
     }
 
     #name-home {
@@ -249,7 +253,7 @@ body {
     
     #contact-content {
         width: 90vw;
-        font-size: 30px;
+        font-size: 15px;
     }
 }
 
