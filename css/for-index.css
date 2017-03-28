@@ -233,7 +233,9 @@ body {
     
     #researches {
         min-width: 0px;
+        width: 100vw;
         padding-top: 100px;
+        background-size: auto;
     }
 
 }
