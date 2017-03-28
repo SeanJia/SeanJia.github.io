@@ -70,7 +70,6 @@ body {
     height: auto;
     min-height: 102vh;
     background-image: url("../image/project-bg.png");
-    margin-top: -25px;
     padding-bottom: 50px;
     padding-top: 20px;
     background-repeat: repeat-y;
@@ -98,7 +97,8 @@ body {
     min-height: 109vh;
     min-width: 850px;
     background-repeat: repeat-y;
-    padding-top: 20px;
+    padding-top: 100px;
+    margin-top: -25px;
     background-size: cover;
 }
 
