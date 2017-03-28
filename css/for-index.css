@@ -117,17 +117,7 @@ body {
 
 .research-text {
     float: left;
-    width: 44vw;
-}
-
-.research-image {
-    float: right;
-    width: 25vw;
-}
-
-.research-img {
-    max-width: 25vw;   
-    max-height: 25vh;
+    width: 88vw;
 }
 
 .research-link {
@@ -236,8 +226,9 @@ body {
     #researches {
         min-width: 0px;
         width: 100vw;
-        padding-top: 100px;
+        padding-top: 50px;
         background-size: auto;
+        height: 200vh;
     }
 
     #name-home {
