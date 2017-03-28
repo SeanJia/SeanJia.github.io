@@ -242,8 +242,7 @@ body {
     #name-home {
         font-size: 30px;
         color: blue;
-        margin-top: 1px;
-        padding-top: 0px;
+        margin-top: 10px;
     }
 
     #welcome {
