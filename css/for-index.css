@@ -243,6 +243,7 @@ body {
         font-size: 30px;
         color: blue;
         margin-top: -50px;
+        padding-top: 0px;
     }
 
     #welcome {
