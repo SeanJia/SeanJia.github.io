@@ -147,6 +147,7 @@ body {
     font-size: 180%;
     color: white;
     border: 0px solid white;
+    margin: auto;
 }
 
 #contact-title {
@@ -155,7 +156,6 @@ body {
     margin: auto;
     font-size: 25px;
     text-align: center;
-    padding: auto;
 }
 
 #footer {
@@ -170,12 +170,6 @@ body {
     color: gray;
     text-align: center;
 }
-
-#phone-show-margin {
-    display: none;
-}
-
-
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait) { 
     #home {
