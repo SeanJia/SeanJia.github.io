@@ -11,25 +11,25 @@
 }
 
 #name-home {
-    color: rgb(204, 204, 0);
+    color: black;
     font-size: 5vw;
-    margin-top: 20vh;
+    margin-top: 15vh;
     text-align: center;
 }
 
 #welcome {
-    color: rgb(204, 204, 0);
-    font-size: 2vw;
+    color: black;
+    font-size: 1.8vw;
     margin-top: -5px;
     text-align: center;
 }
 
 #intro {
-    color: rgb(204, 204, 0);
-    font-size: 1.6vw;
+    color: black;
+    font-size: 1.5vw;
     margin-top: 3vw;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
     text-align: center;
 }
 
