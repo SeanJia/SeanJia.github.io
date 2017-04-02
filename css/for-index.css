@@ -129,7 +129,7 @@ body {
     width: 100%;
     height: auto;
     min-height: 103vh;
-    background-image: url("../image/contact-bg.jpg");
+    background-image: url("../image/contact-min.png");
     background-size: 100% 100%;
     padding: 0px;
     padding-top: 100px;
@@ -224,6 +224,7 @@ body {
     
     #contact {
         padding-top: 0px;
+        background-image: url("../image/contact_phone.jpg");
     }
 }
 
