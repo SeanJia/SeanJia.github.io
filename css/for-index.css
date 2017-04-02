@@ -315,3 +315,51 @@ a.btn-social,.btn-social {
     margin: 10px 6px;
     width: 72px;
 }
+
+.btn-email {
+    background-color: #44c456;
+}
+.btn-email:hover {
+    background-color: #6bd079;
+}
+
+.btn-wechat
+{
+    background-color: #98d11c;
+}
+.btn-wechat:hover
+{
+    background-color: #afe53b;
+}
+.btn-linkedin
+{
+    background-color: #0976b4;
+}
+.btn-linkedin:hover
+{
+    background-color: #0b96e5;
+}
+.btn-instagram
+{
+    background-color: #3f729b;
+}
+.btn-instagram:hover
+{
+    background-color: #548cb9;
+}
+.btn-github
+{
+    background-color: #4183c4;
+}
+.btn-github:hover
+{
+    background-color: #689cd0;
+}
+.btn-facebook
+{
+    background-color: #3b5998;
+}
+.btn-facebook:hover
+{
+    background-color: #4c70ba;
+}
