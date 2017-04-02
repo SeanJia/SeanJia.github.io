@@ -142,11 +142,9 @@ body {
 }
 
 #contact-content {
-    width: 50vw;
+    width: 70vw;
     height: auto;
     min-height: 40vh;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 180%;
     color: white;
     border: 0px solid white;
