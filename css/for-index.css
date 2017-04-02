@@ -11,21 +11,21 @@
 }
 
 #name-home {
-    color: white;
+    color: black;
     font-size: 4.5vw;
     margin-top: 20vh;
     text-align: center;
 }
 
 #welcome {
-    color: lightgray;
+    color: black;
     font-size: 1.5vw;
     margin-top: -5px;
     text-align: center;
 }
 
 #intro {
-    color: white;
+    color: black;
     font-size: 1.2vw;
     margin-top: 3vw;
     margin-left: 33%;
@@ -189,6 +189,7 @@ body {
         min-width: 0px;
         width: 100vw;
         padding-top: 0px;
+        color: white;
     }
     
     body {
