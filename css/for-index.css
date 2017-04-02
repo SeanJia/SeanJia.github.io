@@ -11,21 +11,21 @@
 }
 
 #name-home {
-    color:  darkgray;
+    color: rgb(153, 153, 0);
     font-size: 5vw;
     margin-top: 20vh;
     text-align: center;
 }
 
 #welcome {
-    color: darkgray;
+    color: rgb(153, 153, 0);
     font-size: 2vw;
     margin-top: -5px;
     text-align: center;
 }
 
 #intro {
-    color: darkgray;
+    color: rgb(153, 153, 0);
     font-size: 1.6vw;
     margin-top: 3vw;
     margin-left: 25%;
