@@ -134,7 +134,6 @@ body {
     padding: 0px;
     padding-top: 100px;
     margin: 0px;
-    text-align: center;
 }
 
 #contact-pad {
@@ -148,7 +147,6 @@ body {
     font-size: 180%;
     color: white;
     border: 0px solid white;
-    text-align: center;
 }
 
 #contact-title {
