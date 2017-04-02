@@ -128,7 +128,7 @@ body {
 #contact {
     width: 100%;
     height: auto;
-    min-height: 103vh;
+    min-height: 107vh;
     background-image: url("../image/contact-min.png");
     background-size: 100% 100%;
     padding: 0px;
@@ -181,7 +181,10 @@ body {
         min-width: 0px;
         width: 100vw;
         padding-top: 0px;
-        color: white;
+    }
+    
+    #intro {
+        color: white;    
     }
     
     body {
