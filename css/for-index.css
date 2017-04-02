@@ -72,7 +72,6 @@ body {
     min-height: 102vh;
     background-image: url("../image/project-bg.png");
     padding-bottom: 50px;
-    padding-top: 20px;
     background-repeat: repeat-y;
     background-size: cover;
 }
