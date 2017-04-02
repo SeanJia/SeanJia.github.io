@@ -150,8 +150,8 @@ body {
     font-size: 180%;
     color: white;
     background-color: antiquewhite;
-    opacity: 0.6;
     border: 1px solid white;
+    text-align: center;
 }
 
 .link {
