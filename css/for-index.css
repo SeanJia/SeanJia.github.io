@@ -174,22 +174,12 @@ body {
 
 #contact-title {
     padding-top: 50px;
-    width: 18%;
+    width: 80%;
     margin: auto;
     color: black;
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
     opacity: 1;
-}
-
-#contact-list {
-    padding-top: 100px;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    opacity: 1;
-    color: black;
-    padding-bottom: 50px;
 }
 
 #footer {
