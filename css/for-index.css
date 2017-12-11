@@ -126,7 +126,7 @@ body {
 }
 
 #publications {
-    background-image: url("../image/experience-bg.png");
+    background-image: url("../image/publication-bg.jpg");
     width: 100%;
     height: auto;
     min-height: 105vh;
@@ -154,6 +154,11 @@ body {
 .publication-text {
     float: left;
     width: 88vw;
+    font-size: 150%;
+}
+
+.publication-head {
+    font-size: 200%;   
 }
 
 #contact {
