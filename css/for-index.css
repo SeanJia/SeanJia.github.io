@@ -154,6 +154,10 @@ body {
     font-size: 180%;   
 }
 
+.publication-head {
+    font-size: 150%;   
+}
+
 #contact {
     width: 100%;
     height: auto;
@@ -249,6 +253,20 @@ body {
     
     .publication-text {
         width: 60vw;
+    }
+    
+    .publication-text {
+        float: left;
+        width: 88vw;
+        font-size: 130%;
+    }
+
+    .publication-meta {
+        font-size: 180%;   
+    }
+
+    .publication-head {
+        font-size: 150%;   
     }
 
     #name-home {
