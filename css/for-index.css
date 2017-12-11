@@ -147,7 +147,7 @@ body {
 .publication-text {
     float: left;
     width: 88vw;
-    font-size: 130%;
+    font-size: 110%;
 }
 
 .publication-meta {
@@ -155,7 +155,7 @@ body {
 }
 
 .publication-head {
-    font-size: 150%;   
+    font-size: 130%;   
 }
 
 #contact {
