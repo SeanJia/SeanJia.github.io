@@ -154,11 +154,11 @@ body {
 .publication-text {
     float: left;
     width: 88vw;
-    font-size: 150%;
+    font-size: 130%;
 }
 
-.publication-head {
-    font-size: 200%;   
+.publication-meta {
+    font-size: 180%;   
 }
 
 #contact {
