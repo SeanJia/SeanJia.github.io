@@ -17,13 +17,6 @@
     text-align: center;
 }
 
-#welcome {
-    color: black;
-    font-size: 1.8vw;
-    margin-top: -5px;
-    text-align: center;
-}
-
 #intro {
     color: black;
     font-size: 1.5vw;
@@ -223,11 +216,6 @@ body {
         color: white;
         font-size: 4.5vw;
     }
-
-    #welcome {
-        color: white;
-        font-size: 1.5vw;
-    }
       
     #intro {
         color: white;
@@ -266,10 +254,6 @@ body {
     #name-home {
         font-size: 35px;
         margin-top: 40px;
-    }
-
-    #welcome {
-        font-size: 5vw;
     }
 
     #intro {
