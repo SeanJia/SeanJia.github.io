@@ -90,8 +90,8 @@ body {
     width: 80%
 }
 
-#researches {
-    background-image: url("../image/research-bg.png");
+#experiences {
+    background-image: url("../image/experience-bg.png");
     width: 100%;
     height: auto;
     min-height: 105vh;
@@ -103,7 +103,7 @@ body {
     padding-bottom: 800px;
 }
 
-.research {
+.experience {
     margin-left: 13vw;
     margin-right: 13vw;
     float: left;
@@ -116,13 +116,44 @@ body {
     margin-bottom: 5vh;
 }
 
-.research-text {
+.experience-text {
     float: left;
     width: 88vw;
 }
 
-.research-link {
+.experience-link {
     color: darkgoldenrod;
+}
+
+#publications {
+    background-image: url("../image/experience-bg.png");
+    width: 100%;
+    height: auto;
+    min-height: 105vh;
+    min-width: 850px;
+    background-repeat: repeat-y;
+    padding-top: 100px;
+    margin-top: -25px;
+    background-size: cover;
+    padding-bottom: 800px;
+}
+
+.publication {
+    margin-left: 13vw;
+    margin-right: 13vw;
+    float: left;
+    width: 74vw;
+    background-color: lightgrey;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    margin-bottom: 5vh;
+}
+
+.publication-text {
+    float: left;
+    width: 88vw;
 }
 
 #contact {
@@ -203,7 +234,7 @@ body {
         width: 100vw;
     }
     
-    #researches {
+    #experiences {
         min-width: 0px;
         width: 100vw;
         padding-top: 80px;
@@ -211,7 +242,19 @@ body {
         height: 200vh;
     }
     
-    .research-text {
+    .experience-text {
+        width: 60vw;
+    }
+    
+    #publications {
+        min-width: 0px;
+        width: 100vw;
+        padding-top: 80px;
+        background-size: auto;
+        height: 200vh;
+    }
+    
+    .publication-text {
         width: 60vw;
     }
 
