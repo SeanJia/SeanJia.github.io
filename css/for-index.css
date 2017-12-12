@@ -37,6 +37,10 @@
 body {
     position: relative;
     min-width: 850px;
+    width: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+    padding: 0px;
 }
 
 #navbar {
