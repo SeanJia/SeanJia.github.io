@@ -256,6 +256,7 @@ body {
     }
     
     #publications {
+        background-image: url("../image/publications-bg-phone.jpg");
         min-width: 0px;
         width: 100vw;
         padding-top: 80px;
