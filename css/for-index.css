@@ -261,7 +261,7 @@ body {
         width: 100vw;
         padding-top: 80px;
         background-size: auto;
-        height: 200vh;
+        height: 100vh;
     }
    
     .publication-text {
@@ -271,11 +271,15 @@ body {
     }
 
     .publication-meta {
-        font-size: 150%;   
+        font-size: 180%;   
     }
 
     .publication-head {
         font-size: 120%;   
+    }
+    
+    .publication-body {
+        paddig-right: 12vw;   
     }
 
     #name-home {
