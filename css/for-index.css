@@ -248,7 +248,7 @@ body {
         width: 100vw;
         padding-top: 80px;
         background-size: auto;
-        height: 200vh;
+        height: 230vh;
     }
     
     .experience-text {
@@ -263,23 +263,19 @@ body {
         background-size: auto;
         height: 200vh;
     }
-    
-    .publication-text {
-        width: 60vw;
-    }
-    
+   
     .publication-text {
         float: left;
         width: 88vw;
-        font-size: 130%;
+        font-size: 100%;
     }
 
     .publication-meta {
-        font-size: 180%;   
+        font-size: 150%;   
     }
 
     .publication-head {
-        font-size: 150%;   
+        font-size: 120%;   
     }
 
     #name-home {
