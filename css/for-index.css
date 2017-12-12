@@ -252,7 +252,7 @@ body {
     }
     
     .experience-text {
-        width: 60vw;
+        width: 73vw;
     }
     
     #publications {
@@ -261,12 +261,12 @@ body {
         width: 100vw;
         padding-top: 80px;
         background-size: auto;
-        height: 100vh;
+        height: 80vh;
     }
    
     .publication-text {
         float: left;
-        width: 88vw;
+        width: 73vw;
         font-size: 100%;
     }
 
