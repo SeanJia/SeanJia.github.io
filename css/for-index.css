@@ -119,7 +119,7 @@ body {
 
 .experience-text {
     float: left;
-    width: 88vw;
+    width: 74vw;
 }
 
 .experience-link {
@@ -154,7 +154,7 @@ body {
 
 .publication-text {
     float: left;
-    width: 88vw;
+    width: 74vw;
     font-size: 110%;
 }
 
@@ -278,10 +278,6 @@ body {
         font-size: 120%;   
     }
     
-    .publication-body {
-        paddig-right: 12vw;   
-    }
-
     #name-home {
         font-size: 35px;
         margin-top: 40px;
